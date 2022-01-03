@@ -208,8 +208,8 @@ if submitted and checkbox_value:
 
 if submitted and not checkbox_value:
 
-    col1, col2, col3 = st.columns([1, 1, 1])
-    with col3:
+    col1, col2, col3 = st.columns(3)
+    with col2:
 
         gif_runner = st.image("mouse.gif")
 
