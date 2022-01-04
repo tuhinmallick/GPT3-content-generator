@@ -141,7 +141,7 @@ if checkbox_value:
 
             with c2:
                 maxTokens = st.slider(
-                    "Select # of tokens",
+                    "Max tokens",
                     60,
                     2000,
                     value=1200,
