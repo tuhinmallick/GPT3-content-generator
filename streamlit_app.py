@@ -50,7 +50,7 @@ Find more [about tokens here](https://help.openai.com/en/articles/4936856-what-a
 
 
 def _max_width_():
-    max_width_str = f"max-width: 800px;"
+    max_width_str = "max-width: 800px;"
     st.markdown(
         f"""
     <style>
